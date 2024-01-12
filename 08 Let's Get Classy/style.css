@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Kaushan+Script&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* 
+font-family: 'Birthstone', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 60px 2px 30px;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+.nav-items ul{
+    display: flex;
+    gap: 100px;
+}
+
+.nav-items ul li{
+    list-style: none;
+}
+
+.logo{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.search-bar{
+    padding: 20px 12px;
+}
+
+.res-card{
+    width: 200px;
+    padding: 10px;
+    margin: 40px 30px;
+    line-height: 150%;
+    background-color: #f0f0f0;
+}
+
+.res-card img{
+    width: 100%;
+}
+
+.res-card:hover{
+    border: 1px solid rgb(44, 44, 44);
+    cursor: pointer;
+}
+
+.res-data{
+    padding: 8px;
+    text-decoration-style: none;
+}
+
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.filter{
+    margin: 10px;
+}
+
+.filter-btn{
+    margin: 10px;
+    padding: 8px 18px;
+}
+
+
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.shimmer-card{
+    width: 200px;
+    height: 320px;
+    padding: 10px;
+    margin: 40px 30px;
+    line-height: 150%;
+    background-color: #f0f0f0;
+}
+
+.login-btn{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.search-bar-container{
+    margin: 30px 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-input{
+    padding: 10px;
+    width: 80%;
+}
+
+.search-btn{
+    padding: 10px 20px;
+}
+
+.res-menu-data p{
+    color: #7c7c80;
+    margin: 6px 0px;
+}
+
+.restaurant-menu{
+    width: 50%;
+    margin: 20px auto;
+}
+
+.restaurant-name{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.res-rating{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.res-rating p{
+    font-size: 10px;
+    margin: 8px 0px;
+}
+
+.hor-rule{
+    margin: 20px 0px;
+}
+
+.item-shipment{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.item-shipment div {
+    display: flex;
+    align-items: center;
+}
+
+.item-shipment i {
+    margin-right: 10px;
+}
+
+.hor-rule2{
+    margin: 20px 0 60px 0;
+}
+
+.card-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-img img{
+    width: 120px;
+}
+
+.item-detail h5{
+    font-weight: 500;
+    padding: 3px 0;
+}
+
+.item-detail p{
+    font-size: 14px;
+    color: #7c7c80;
+    padding: 15px 0 0 0;
+    font-weight: 400;
+}
+
+.about{
+    margin: 20px;
+}
+
+.user-card{
+    margin: 20px auto;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #7c7c80;
+}
+
+.user-card img{
+    width: 300px;
+    border-radius: 50%;
+}
+
+.user-card h1{
+    font-size: 60px;
+    line-height: 120px;
+    color: black;
+}
